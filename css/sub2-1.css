@@ -1,0 +1,227 @@
+#sub2-1 #main_header {   
+    position: relative; /*부모요소 위치 선언 */
+    width: 1200px;
+    height: 163px;
+    margin: 0 auto;
+    text-align: center;
+}
+#sub2-1 #main_header > h1 {
+    padding: 30px 0;
+}
+#sub2-1 #main_gnb { /* 네비게이션 */
+    position: relative;
+    border-top: 1px solid #999;
+    padding-top: 5px;
+    z-index: 99; /* gnb 네비게이션 메뉴를 99 z-index값으로 높임 */
+
+}
+#sub2-1 #main_gnb > .depth1 > li .depth_red {
+    color: #ac162c;
+}
+#sub2-1 #main_gnb > .depth1 > li { /* 1단계 메뉴의 li */
+    position: relative;    
+    float: left;
+    width: 20%; 
+    height: 40px;
+    font-weight: bold;
+}
+#sub2-1 #main_gnb > .depth1 > li > a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2em;       
+}
+#sub2-1 #main_gnb > .depth1 > li > a:hover {
+    border-bottom: 3px solid #ac162c;
+    color: #ac162c;
+}
+#sub2-1 #main_gnb > .depth1 > li:last-child a:hover {
+    border-bottom: none;
+}    
+#sub2-1 #main_gnb .depth2 {
+    position: absolute;
+    top: 39px;
+    height: 110px;
+    width: 100%;
+    border: 1px solid #eee;
+    background-color: rgba(255,255,255,0.8);
+    border-right: none;
+}
+#sub2-1 #main_gnb .lastdep {
+    border-right: 1px solid #eee;
+}
+#sub2-1 #main_gnb .depth2 > li > a {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+#sub2-1 #main_gnb .depth2 > li > a:hover {
+    color: #ac162c;
+}
+
+#sub2-1 > .sub_main_banner{
+    position: relative;
+    width: 1200px;
+    height: 212px;    
+    margin-top: 20px;
+    margin: 0 auto; 
+}
+#sub2-1 .sub_main_banner_box {
+    position: relative;
+    width: 1200px;
+    background-image: url('../images/subTopImg2-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 212px;    
+    margin-top:20px;
+        
+}
+#sub2-1 #main_lnb {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+}
+#sub2-1 #main_lnb li {
+    display: inline-block;
+}
+#sub2-1 #main_lnb li a{
+    color: #464646;
+    display: block;
+    line-height: 50px;
+    padding: 0 40px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#sub2-1 #main_lnb li a:hover{
+    color: #ac162c;
+}
+#sub2-1 #main_lnb li.active_2 > a{
+    color: #ac162c;
+}
+#sub2-1 .page_nav {
+    background-color: #fff;
+    width: 1200px;
+    text-align: right;
+    padding: 15px 0;
+    margin:0 auto;
+}
+#menubanner {
+    width: 1200px;
+    margin: 0 auto;
+    height: 431px;
+}
+#sub2-1 #news {
+    position: relative;
+    width: 1200px;
+    margin: 40px auto;
+    overflow: hidden;
+    text-align: center;    
+    margin-bottom: 60px;
+}
+#sub2-1 #news h2 > a {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ac162c;   
+}
+#sub2-1 #news .line {
+    display: block;
+    border-bottom: 3px solid #ac162c;
+    width: 120px;
+    margin: 30px auto 10px; 
+}
+#sub2-1 #news > #container > .prod-list {   
+    height: 560px;
+}
+#sub2-1 #news > #container > .prod-list > li {
+    position: relative;
+    width: 262px;
+    height: 262px;;
+    overflow: hidden;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px; 
+}
+#sub2-1 #news > #container > .prod-list > li:first-child {
+    margin-left: 0;  
+}
+#sub2-1 #news > #container > .prod-list > li:nth-child(5) {
+    margin-left: 0;  
+}
+#sub2-1 .prod-list .caption{
+    position: absolute;
+    top: 200px;
+    width: 262px;
+    height: 262px;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 4em;
+    transition: 0.2s  ease-in-out;
+    opacity: 0;     
+}
+#sub2-1 .prod-list .caption p{
+    margin-bottom: 20px;
+}
+
+#sub2-1 .prod-list li img{
+    transform: 0.2s ease-in-out;
+}
+#sub2-1 .prod-list li:hover img{
+    transform: scale(1.2 , 1.2);
+}
+#sub2-1 .prod-list li:hover img:last-child{
+    transform: none;
+}
+#sub2-1 .prod-list li:hover .caption{
+    top: 0;
+    opacity: 1;
+}
+#sub2-1 .prod-list .caption .btn_hover {
+    background-color: #ac162c;
+	display: inline-block;
+	width: 120px;
+	padding: 5px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2em;
+	cursor: pointer;
+    box-shadow: 0 5px #B0B0B0;
+    color: white;
+    font-weight: bold;
+}
+#sub2-1 .prod-list .caption .btn_hover:hover {                
+    background-color: #720a1c; 
+}
+#sub2-1 .prod-list .caption .btn_hover:active {
+	background-color: #720a1c;
+    box-shadow: 0 1px #808080;
+	transform: translateY(4px);
+}
+#sub2-1 #side_info {
+    width: 1200px;
+    margin: 0 auto;    
+    height: 600px;
+    position: relative;
+    margin-bottom: 60px;
+}
+#sub2-1 #side_info a {
+    width: 570px;
+    height: 600px;
+    float: left;
+}
+#sub2-1 #side_info a:last-child {
+    float: right;
+
+
+

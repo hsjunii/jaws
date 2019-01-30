@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>죠스 떡볶이 / 매장찾기</title>
+    <meta name="description" content="대한민국의 분식점 프랜차이즈 떡볶이의 세련된 브랜드화"> <!-- description은 소개 -->
+    <meta name="keywords" content="분식점 프랜차이즈, 떡볶이, 순대, 튀김, 오뎅, 캐치프레"> <!-- 키워드는 검색어 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet"> <!-- 나눔고딕 웹 폰트 추가 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> <!-- Web-Icon-Font (font_awesome)-->
+    <link rel="stylesheet" href="css/style.css"> <!-- 사용자 CSS (내꺼) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- j-query 링크-->
+    <script src="js/map_slider.js"></script> <!-- map slider-->
+    <script src="js/script.js"></script> <!-- map slider-->
+    <script src="js/sideR-bnr.js"></script> <!-- side-bnr slider-->    
+    <script src="js/search.js"></script> <!-- map -->
+</head>
+<body id="sub3-1">
+    <header id="main_header">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="죠스 떡볶이">
+            </a>
+        </h1>
+
+        <nav id="main_gnb">
+            <ul class="depth1">
+                <li>
+                    <a href="sub1-1.html">BRAND</a>
+                    <ul class="depth2">
+                        <li>
+                            <a href="sub1-1.html">대표인사말</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">죠스이야기</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">채용정보</a>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="sub2-1.html">MENU</a>
+                    <ul class="depth2">
+                        <li>
+                            <a href="sub2-1.html">메인메뉴</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">세트메뉴</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">사이드메뉴</a>
+                        </li>
+                    </ul>			
+                </li>
+                <li>
+                    <a href="sub3-1.html"
+                        class="depth_red">STORE</a>
+                    <ul class="depth2">
+                        <li>
+                            <a href="sub3-1.html">매장찾기</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">매장안내</a>
+                        </li>  
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COMMUNITY</a>
+                    <ul class="depth2 lastdep">
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">커뮤니티</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">고객의소리</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://www.jawsfood.com/franchise/">
+                        <img src="images/franchise.png" 
+                            alt="프랜차이즈"
+                            onMouseOver="this.src='images/franchise_2.png'"
+                            onMouseOut="this.src='images/franchise.png'">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+             
+    <!-- 서브페이지 콘텐츠 영역 -->
+    <section class="sub_main_banner">
+        <div class="sub_main_banner_box">
+            <nav id="main_lnb">
+                <ul>
+                    <li class="active_2">
+                        <a href="sub3-1.html">매장찾기</a>
+                    </li>
+                    <li>
+                        <a href="void(0);" onclick="alert('준비중입니다.'); return false;">매장안내</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>    
+    </section>
+    
+    <section id="sideR-bnr">
+        <a href="sub2-1.html">
+           <img src="images/sideR-icon.png"         
+                alt="주문하기 퀵메뉴"
+                onMouseOver="this.src='images/r-sideR-icon.png'"
+                onMouseOut="this.src='images/sideR-icon.png'">
+        </a>        
+    </section>
+    
+    <div class="page_nav">
+        <a href="index.html">Jaw's Home </a>&gt;
+        <a href="sub3-1.html">Store </a>&gt;
+        <strong>매장찾기</strong>
+    </div>
+     
+    <section id="form_map">
+        <h2>매장찾기</h2>
+        <span class="line"></span>   
+        <div id="map_adrs">     
+            <p id="myAreaBtn">
+                <a href="void(0);" onclick="alert('준비중입니다.'); return false;">
+                    <img src="images/map_icon2.png" 
+                        alt="내주변"
+                        onMouseOver="this.src='images/map_icon1.png'"
+                        onMouseOut="this.src='images/map_icon2.png'">
+                </a>
+            </p>
+            <select id="city" name="city">
+                <option selected>시/도 선택</option>
+                <option value="서울특별시">서울특별시</option>
+                <option value="인천광역시">인천광역시</option>
+                <option value="대전광역시">대전광역시</option>
+                <option value="광주광역시">광주광역시</option>
+                <option value="대구광역시">대구광역시</option>
+                <option value="울산광역시">울산광역시</option>
+                <option value="세종특별자치시">세종특별자치시</option>
+                <option value="경기도">경기도</option>
+                <option value="강원도">강원도</option>
+                <option value="충청남도">충청남도</option>
+                <option value="충청북도">충청북도</option>
+                <option value="전라남도">전라남도</option>
+                <option value="전라북도">전라북도</option>
+                <option value="경상남도">경상남도</option>
+                <option value="경상북도">경상북도</option>
+                <option value="제주도">제주도</option>
+            </select>
+            <select id="gu" name="gu">
+                <option selected>구/군 선택</option>
+            </select>
+            <form id="s">
+                <p>
+                    <input type="search"
+                        id="search"
+                        required>
+                    <button id="submit">검색</button>
+                </p>
+            </form>
+            <div id="text_adr">
+                <ul id="address_list"></ul>
+            </div>
+                    
+            <aside class="new_store">
+                <div class="n_store">
+                    <h3>18.12.24 OPEN</h3>
+                    <span class="op_line"></span>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">위치보기</a>
+                    <p><b>울산 야음점</b></p>
+                    <p>울산시 남구 수암로 190번길 18</p>
+                    <p>052-227-4850</p>
+                    <p class="event_01">OPEN EVENT</p>
+                    <p>18.12.24 ~ 12.31까지 떡볶이 시키면 유부주머니 서비스</p>
+                </div>
+            </aside>    
+        </div>
+        <div id="map"> <!-- mapping -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d85118.25111727511!2d126.87996228116813!3d37.54968193641188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z7KOg7Iqk65ah67O27J20!5e0!3m2!1sko!2skr!4v1548654599667" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>                
+        </div> <!-- end map -->
+    </section>
+    
+    <footer id="main_footer"> <!-- footer -->
+        <div class="footer_area">
+            <h1>
+                <a href="index.html">
+                    <img src="images/foot_logo.png" alt="죠스 떡볶이">
+                </a>
+            </h1>
+            <p class="tel_num">
+                고객센터 : 02 - 927 - 1525<br>
+                <span>
+                    (오전 9시 ~ 오후 6시/ 주말 및 공유일 휴무)
+                </span>
+            </p>
+            <ul>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">채용안내 | </a>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">개인정보처리지침 | </a>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">이용약관 | </a>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">사이트맵</a>
+                </li>            
+            </ul>
+            <p>대표이사 나상균 | 사업자 등록번호 209-81-54096</p>
+            <address>
+                서울특별시 강남구 영동대로 82길 7(대치동, 한석타워)
+            </address>
+            <p class="copyright">
+                Copyright &copy; JAWSFOOD, All rights Reserved.
+            </p>            
+        </div>
+    </footer><!-- end footer -->    
+
+</body>
+</html>

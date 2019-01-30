@@ -1,0 +1,191 @@
+/* sub1-1 page*/
+
+#sub1-1 #main_header {   
+    position: relative; /*부모요소 위치 선언 */
+    width: 1200px;
+    height: 163px;
+    margin: 0 auto;
+    text-align: center;
+}
+#sub1-1 #main_header > h1 {
+    padding: 30px 0;
+}
+#sub1-1 #main_gnb { /* 네비게이션 */
+    position: relative;
+    border-top: 1px solid #999;
+    padding-top: 5px;
+    z-index: 99; 
+}
+#sub1-1 #main_gnb > .depth1 > li .depth_red {
+    color: #ac162c;
+}
+#sub1-1 #main_gnb > .depth1 > li { /* 1단계 메뉴의 li */
+    position: relative;    
+    float: left;
+    width: 20%; 
+    height: 40px;
+    font-weight: bold;
+}
+#sub1-1 #main_gnb > .depth1 > li > a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2em;       
+}
+#sub1-1 #main_gnb > .depth1 > li > a:hover {
+    border-bottom: 3px solid #ac162c;
+    color: #ac162c;
+}
+#sub1-1 #main_gnb > .depth1 > li:last-child a:hover {
+    border-bottom: none;
+}    
+#sub1-1 #main_gnb .depth2 {
+    position: absolute;
+    top: 39px;
+    height: 110px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-right: none;
+}
+#sub1-1 #main_gnb .lastdep {
+    border-right: 1px solid #eee;
+}
+#sub1-1 #main_gnb .depth2 > li > a {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+#sub1-1 #main_gnb .depth2 > li > a:hover {
+    color: #ac162c;
+}
+
+
+
+#sub1-1 > .sub_main_banner{
+    position: relative;
+    width: 100%; 
+    height: 245px;
+    background-image: url('../images/subTopImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+#sub1-1 #main_gnb > .depth1 > li .depth_red {
+    color: #ac162c;
+}
+#sub1-1 .sub_main_banner_box {
+    position: relative;
+    width: 1200px;
+    height: 245px;    
+    margin: 0 auto;    
+}
+#sub1-1 #main_lnb {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background: rgba(255,255,255,0.8);
+    text-align: center;    
+}
+#sub1-1 #main_lnb li {
+    display: inline-block;
+}
+#sub1-1 #main_lnb li a{
+    color: #464646;
+    display: block;
+    line-height: 50px;
+    padding: 0 40px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#sub1-1 #main_lnb li a:hover{
+    color: #ac162c;
+}
+#sub1-1 #main_lnb li.active_2 > a{
+    color: #ac162c;
+}
+#sub1-1 .page_nav {
+    background-color: #fff;
+    width: 1200px;
+    text-align: right;
+    padding: 15px 0;
+    margin:0 auto;
+}
+#sub1-1 #main {
+    width: 1200px;
+    height: 720px;
+    margin: 60px auto;
+    margin-top: 90px;        
+    position: relative;
+}
+#sub1-1 #main img {
+    float: left;
+    width: 500px;    
+}
+#sub1-1 #main #txt_profile {
+    float: right; 
+    width: 50%;
+}
+#sub1-1 #main h2 {
+    font-size: 36px;
+    margin-bottom: 55px;    
+    color: #464646;
+    text-align: center;    
+}
+#sub1-1 #main p {
+    font-size: 1.5em;
+    color: #464646;
+    line-height: 1.8em;
+    margin-bottom: 15px;
+}
+#sub1-1 #main p:last-child {
+    margin-top: 40px;
+    text-align: right;
+}
+#sub1-1 #main p span {
+    font-weight: bold;
+    font-size: 1.3em;    
+}
+#slogan {
+    width: 1200px;
+    height: 550px;
+    margin: 40px auto;   
+    position: relative;
+    margin-bottom: 90px;
+}
+#slogan #txt_slog {
+    width: 50%;
+    float: left;   
+    text-align: left;  
+}
+#slogan #txt_slog h2 {
+    color: #ac162c;
+    font-size: 3.5em;
+    line-height: 1.5em;    
+    margin: 0 auto;
+    margin-bottom: 65px;
+    font-weight: bold;
+}
+#slogan #txt_slog p {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    color:#464646;
+}
+#slogan #txt_slog p:last-child {
+    text-align: right;
+    margin-right: 100px;
+}
+#slogan #txt_slog p:last-child span{
+    font-weight: bold;
+}
+
+#slogan #img_slog {
+    width: 50%;   
+    float: right;
+    text-align: right;
+}
+#slogan img {
+    width: 600px;

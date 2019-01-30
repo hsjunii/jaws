@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>죠스 떡볶이 홈페이지</title>
+    <meta name="description" content="대한민국의 분식점 프랜차이즈 떡볶이의 세련된 브랜드화"> <!-- description은 소개 -->
+    <meta name="keywords" content="분식점 프랜차이즈, 떡볶이, 순대, 튀김, 오뎅, 캐치프레"> <!-- 키워드는 검색어 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet"> <!-- 나눔고딕 웹 폰트 추가 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> <!-- Web-Icon-Font (font_awesome)-->
+    <link rel="stylesheet" href="css/style.css"> <!-- 사용자 CSS (내꺼) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- j-query 링크-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script> <!-- 사용자 javascript (내꺼) -->
+    <script src="js/img_slider.js"></script> <!-- img slider -->
+    <script src="js/sns_slider.js"></script> <!-- sns slider-->
+    <script src="js/noti_slider.js"></script> <!-- noti slider-->    
+    <script src="js/sideR-bnr.js"></script> <!-- side-bnr slider-->
+    <script src="js/popup.js"></script> <!-- side-bnr slider-->
+
+</head>
+<body>
+    <header id="main_header">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="죠스 떡볶이">
+            </a>
+        </h1>
+
+        <nav id="main_gnb">
+            <ul class="depth1">
+                <li>
+                    <a href="sub1-1.html">BRAND</a>
+                    <ul class="depth2">
+                        <li>
+                            <a href="sub1-1.html">대표인사말</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">죠스이야기</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">채용정보</a>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="sub2-1.html">MENU</a>
+                    <ul class="depth2">
+                        <li>
+                            <a href="sub2-1.html">메인메뉴</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">세트메뉴</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">사이드메뉴</a>
+                        </li>
+                    </ul>			
+                </li>
+                <li>
+                    <a href="sub3-1.html">STORE</a>
+                    <ul class="depth2">
+                        <li>
+                            <a href="sub3-1.html">매장찾기</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">매장안내</a>
+                        </li>  
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">COMMUNITY</a>
+                    <ul class="depth2 lastdep">
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">커뮤니티</a>
+                        </li>
+                        <li>
+                            <a href="void(0);" onclick="alert('준비중입니다.'); return false;">고객의소리</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://www.jawsfood.co.kr/franchise/">
+                        <img src="images/franchise.png" 
+                            alt="프랜차이즈"
+                            onMouseOver="this.src='images/franchise_2.png'"
+                            onMouseOut="this.src='images/franchise.png'">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+   
+    <section id="main_banner"> <!-- Main Visual Banner -->
+        <div class="slider">        
+            <div class="sliders"> <!-- img slider -->
+                <img src="images/main_banner_01.png" alt="banner1">
+                <img src="images/main_banner_02.png" alt="banner2">
+                <img src="images/main_banner_03.png" alt="banner3">
+            </div> 
+            <div class="clear"></div>
+        </div> 
+        <ul class="slider_indicator">
+            <li><a href="#" class="active"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </section> <!-- end Main Visual Banner -->
+
+    <section id="sideR-bnr">
+        <a href="sub2-1.html">
+           <img src="images/sideR-icon.png"         
+                alt="주문하기 퀵메뉴"
+                onMouseOver="this.src='images/r-sideR-icon.png'"
+                onMouseOut="this.src='images/sideR-icon.png'">
+        </a>        
+    </section>
+
+    <section id="contents_01"> <!-- 뉴스 섹션 -->
+        <h2>Jaw's Story
+            <span>죠스이야기</span>
+        </h2>
+        <span class="line"></span>
+                <img src="images/new_store.png" 
+                    alt="죠스떡볶이 새 매장">
+                <a href="sub3-1.html">가까운 매장찾기
+                </a>               
+                <iframe width="650" height="500" src="https://www.youtube.com/embed/Uq3b3hBmXGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="contents_02">
+        <aside class="slider1">
+            <div class="sliders1">
+                <img src="images/notice_banner_01.png"  alt="공지사항 배너1">            
+                <img src="images/notice_banner_02.png"  alt="공지사항 배너2">            
+                <img src="images/notice_banner_03.png"  alt="공지사항 배너3">
+            </div>
+        </aside> <!-- end 뉴스 이미지 슬라이드 -->
+        <div class="news_list"> <!-- 게시판-->
+            <h3>Jaw's News</h3>
+            <div class="line"></div>
+            <ul>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 이벤트 : 죠스떡볶이 8월 카카오 플러스 친구 이벤트...</a>
+                    <span class="date">2018.08.02</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 죠스 어묵티 매운맛 더해져 업그레이드 ver 출시</a>
+                    <span class="date">2018.09.01</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 죠스떡볶이 10번째 생일입니다. #축하해#</a>
+                    <span class="date">2018.09.28</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - notice : 죠스푸드 본사 이전 안내</a>
+                    <span class="date">2018.10.08</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 풍요로움 가득한 한가위 보내세요!</a>
+                    <span class="date">2018.10.11</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 21살 알바에서 정직원으로"...  파격 채용</a>
+                    <span class="date">2018.11.07</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 죠스 떡볶이 먹고 강강 수월래!</a>
+                    <span class="date">2018.09.01</span>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;"> - 죠스푸드 대박 창업 이벤트 - 새 점주님을...</a>
+                    <span class="date">2018.11.07</span>
+                </li>
+            </ul>
+        </div> <!-- end 게시판 -->
+    </section>  <!-- end 뉴스 섹션-->
+
+    <section id="foundation"> <!-- Foundation -->
+        <h2>Jaw's Franchise
+            <span>창업안내</span>
+        </h2>
+        <span class="line"></span>
+        <article>                      
+            <ul class="inform_list">
+                <li>
+                    <img src="images/infor_num.png"
+                        alt="창업문의"
+                         usemap="#fran_ask">
+                    <map name="fran_ask">
+                        <area shape="rect" 
+                               coords="77,123,280,155" 
+                               href="http://www.jawsfood.co.kr/franchise/open/consult_01.html" 
+                               alt="창업문의">
+                    </map>
+                </li>
+                <li>
+                    <a href="http://www.jawsfood.co.kr/franchise/info/introduce.html">
+                        <i class="fas fa-store"></i>
+                        <span>죠스푸드 소개</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.jawsfood.co.kr/franchise/open/procedure.html">
+                        <i class="fas fa-tasks"></i>
+                        <span>가맹 절차</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.jawsfood.co.kr/franchise/open/cost.html">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <span>가맹점 비용</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.jawsfood.co.kr/franchise/open/faq.html">
+                        <i class="far fa-comment-dots"></i>
+                        <span>FAQ</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </section> <!-- end Foundation -->
+
+    <!-- SNS Img Gallery 영역 -->
+    <section id="sns_gallery">
+        <h2>SNS
+            <span>Jaw's familly</span>
+        </h2>
+        <span class="line"></span>
+        <p>
+            <img src="images/facebook_jaws.png"             alt="facebook"
+                usemap="#facebook_sns">
+            <map name="facebook_sns">
+                <area shape="rect" 
+                       coords="100,400,236,455" 
+                       href="https://ko-kr.facebook.com/jawsstory/" 
+                       alt="sns_facebook">
+            </map>
+        </p>
+        <div class="sns_slide">
+            <div class="sns_slider">  
+                <a href="https://www.facebook.com/pg/jawsstory/posts/">
+                    <img src="images/sns_01.png" alt="photo2">
+                </a>
+                <a href="https://www.facebook.com/eodyd188">
+                    <img src="images/sns_02.png" alt="photo3">
+                </a>
+                <a href="http://cy.cyworld.com/home/24215105">
+                    <img src="images/sns_03.png" alt="photo4">
+                </a>
+                <a href="https://www.facebook.com/pg/jawsstory/posts/">
+                    <img src="images/sns_04.png" alt="photo5">
+                </a>
+                <a href="https://www.facebook.com/pg/jawsstory/posts/">
+                    <img src="images/sns_05.png" alt="photo6">
+                </a>
+                <a href="https://www.facebook.com/pg/jawsstory/posts/">
+                    <img src="images/sns_06.png" alt="photo7">
+                </a>            
+            </div>
+        </div>
+    </section> <!-- end sns_gallery-->
+
+    <section id="popup_01">    
+            <img src="images/popup_img01.png" alt="새매장 소개 팝업창">
+            <form name="popup_notice">
+                <label for="noti_p">
+                    오늘 하루 이창을 열지 않음
+                </label>
+                <input type="checkbox" id="noti_p">
+                <a href="#"
+                    onclick="this.parentNode.parentNode.style.display = 'none'">닫기</a>
+            </form>
+    </section>
+
+    
+    <footer id="main_footer"> <!-- footer -->
+        <div class="footer_area">
+            <h1>
+                <a href="index.html">
+                    <img src="images/foot_logo.png" alt="죠스 떡볶이">
+                </a>
+            </h1>
+            <p class="tel_num">
+                고객센터 : 02 - 927 - 1525<br>
+                <span>
+                    (오전 9시 ~ 오후 6시/ 주말 및 공유일 휴무)
+                </span>
+            </p>
+            <ul>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">채용안내 | </a>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">개인정보처리지침 | </a>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">이용약관 | </a>
+                </li>
+                <li>
+                    <a href="void(0);" onclick="alert('준비중입니다.'); return false;">사이트맵</a>
+                </li>            
+            </ul>
+            <p>대표이사 나상균 | 사업자 등록번호 209-81-54096</p>
+            <address>
+                서울특별시 강남구 영동대로 82길 7(대치동, 한석타워)
+            </address>
+            <p class="copyright">
+                Copyright &copy; JAWSFOOD, All rights Reserved.
+            </p>            
+        </div>
+    </footer><!-- end footer -->    
+
+</body>
+</html>
