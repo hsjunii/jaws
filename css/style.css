@@ -47,6 +47,7 @@ body {
     height: 163px;
     margin: 0 auto;
     text-align: center;
+    z-index: 99px;
 }
 #main_header > h1 {
     padding: 30px 0;
@@ -55,7 +56,9 @@ body {
     position: relative;
     border-top: 1px solid #999;
     padding-top: 5px;
-    z-index: 99; /* gnb 네비게이션 메뉴를 99 z-index값으로 높임 */
+}
+#main_gnb > .depth1 > li .depth_red {
+    color: #ac162c;
 }
 #main_gnb > .depth1 > li { /* 1단계 메뉴의 li */
     position: relative;    
@@ -82,8 +85,8 @@ body {
     top: 39px;
     height: 110px;
     width: 100%;
-    border: 1px solid #eee;
-    background-color: rgba(255,255,255,0.8);    
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
     border-right: none;
 }
 #main_gnb .lastdep {
@@ -97,6 +100,7 @@ body {
 #main_gnb .depth2 > li > a:hover {
     color: #ac162c;
 }
+
 
 /* main-visual */
 #main_banner {
